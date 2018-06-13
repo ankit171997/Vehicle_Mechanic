@@ -1,0 +1,71 @@
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical"
+	>
+	<LinearLayout
+		android:id="@+id/linear1"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:padding="8dp"
+		android:orientation="vertical"
+		android:gravity="center_horizontal|center_vertical"
+		android:background="#000000"
+		>
+		<ImageView
+			android:id="@+id/imageview1"
+			android:layout_width="200dp"
+			android:layout_height="200dp"
+			android:layout_margin="8dp"
+			android:src="@drawable/vehicalmechaniclogo"
+			/>
+		<Button
+			android:id="@+id/button1"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:padding="8dp"
+			android:text="Mail Us"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/edittextbackgroung"
+			android:textSize="12sp"
+			android:textColor="#F57F17"
+			/>
+		<Button
+			android:id="@+id/button3"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:padding="8dp"
+            android:layout_marginTop="5dp"
+
+            android:text="Facebook"
+            android:background="@drawable/edittextbackgroung"
+			android:textSize="12sp"
+			android:textColor="#F57F17"
+			/>
+		<Button
+			android:id="@+id/button4"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:padding="8dp"
+            android:layout_marginTop="5dp"
+
+            android:background="@drawable/edittextbackgroung"
+			android:text="Twitter"
+			android:textSize="12sp"
+			android:textColor="#F57F17"
+			/>
+		<Button
+			android:id="@+id/button5"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:padding="8dp"
+            android:layout_marginTop="5dp"
+
+            android:background="@drawable/edittextbackgroung"
+			android:text="Instagram"
+			android:textSize="12sp"
+			android:textColor="#F57F17"
+			/>
+	</LinearLayout>
+</LinearLayout>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:weightSum="4">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/title"
+            android:textColor="#F57F17"
+
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+
+
+            android:text="Service 1"
+            android:textSize="25dp" />
+
+        <TextView
+            android:textAlignment="viewEnd"
+            android:id="@+id/amount"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:textColor="#386c1e"
+            android:text="  Status"
+            android:textSize="20dp"
+            android:gravity="end" />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/title1"
+            android:textColor="#F57F17"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+
+            android:text="My Vehicle"
+            android:textSize="25dp" />
+
+        <TextView
+            android:id="@+id/amount1"
+            android:textAlignment="viewEnd"
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:textColor="#386c1e"
+            android:text="  Estimate Time"
+            android:textSize="20dp"
+            android:gravity="end" />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

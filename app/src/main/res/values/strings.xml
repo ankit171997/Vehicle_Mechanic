@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Vehicle_Mechanic</string>
+    <string name="url">http://192.168.225.37:8888/VehicleMechanic1/webservice/</string>
+    <string name="image">http:/192.168.225.37:8888/VehicleMechanic1/</string>
+    <string name="text_color">#F57F17</string>
+
+    <string name="google_maps_key">AIzaSyA5CMiSUk9KP--9MHGQipfZ_Cp0J4MhS2Q</string>
+
+    google_maps_key
+</resources>
